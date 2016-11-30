@@ -10,6 +10,8 @@ def prime_numbers(n):
                     break
             else:
                 primes.append(x)
-        return primes
+        if primes != [] :
+            return primes
 
-print(prime_numbers(10))
+        else:
+            return("The output cannot be an empty list")
